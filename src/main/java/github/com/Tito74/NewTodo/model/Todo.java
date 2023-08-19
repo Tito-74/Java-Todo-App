@@ -14,5 +14,5 @@ public class Todo {
     private Long id;
 
     private String content;
-    private Boolean completed;
+    private Boolean completed = Boolean.FALSE;
 }
